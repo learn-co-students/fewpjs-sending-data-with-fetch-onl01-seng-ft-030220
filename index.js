@@ -9,9 +9,9 @@ function submitData(name, email){
         headers: {
           "Content-Type": "application/json",
           "Accept": "application/json"
-    },
+        },
     
-    body: JSON.stringify(formData)
+        body: JSON.stringify(formData)
     }
            
     return fetch("http://localhost:3000/users", configObj)
